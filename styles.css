@@ -1,0 +1,171 @@
+html {
+    margin: 0;
+    /* padding: 3rem; */
+    font-family: League Spartan;
+}
+
+body {
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem 3rem;
+}
+
+#paramour-splash {
+    background-image: url("assets/home/mobile/image-hero-paramour.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 560px;
+    padding: 5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+
+#paramour-splash h2 {
+    color: white;
+    font-size: 48px;
+    letter-spacing: 1.2px;
+    line-height: 48px;
+}
+
+#paramour-splash p {
+    color: white;
+    margin-bottom: 5rem;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+button {
+    background-color: black;
+    height: 72px;
+    width: 252px;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+#welcome-arch-studio {
+    height: 627px;
+    margin-bottom: 5rem;
+}
+
+#welcome-arch-studio h2 {
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: 1.71px;
+    font-family: League Spartan;
+    padding: 0 3rem;
+}
+
+#welcome-arch-studio p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #60636D;
+    font-family: League Spartan;
+    padding: 0 3rem;
+}
+
+#small-team-splash {
+    background-image: url("assets/home/mobile/image-small-team.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 560px;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#small-team-splash h2 {
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: 1.71px;
+    color: white;
+}
+
+#featured h2 {
+    margin-left: 3rem;
+}
+
+#project-del-sol {
+    background-image: url("assets/portfolio/mobile/image-del-sol.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 240px;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 0 0 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#z-228b-tower {
+    background-image: url("assets/portfolio/mobile/image-228b.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 240px;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 0 0 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#le-prototype {
+    background-image: url("assets/portfolio/mobile/image-prototype.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 240px;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 0 0 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#project-del-sol h2, #z-228b-tower h2, #le-prototype h2 {
+    color: white;
+    margin: 0;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: League Spartan;
+}
+
+#project-del-sol a, #z-228b-tower a, #le-prototype a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: League Spartan;
+}
+
+#featured-button-container {
+    /* display: flex; */
+    margin: 0 3rem 0 3rem;
+}
+
+#featured-button-container button {
+    display: flex;
+    width: 100%;
+}
