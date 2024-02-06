@@ -169,3 +169,17 @@ button {
     display: flex;
     width: 100%;
 }
+
+footer {
+    height: 383px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
