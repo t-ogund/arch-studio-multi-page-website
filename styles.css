@@ -354,6 +354,23 @@ button {
     justify-content: flex-end;  
 }
 
+#about-splash {
+    background-image: url("assets/about/mobile/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 240px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+#about-bar {
+    height: 45px;
+    width: 90%;
+    background-color: white;
+}
+
 footer {
     height: 383px;
     display: flex;
