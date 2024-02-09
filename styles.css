@@ -394,3 +394,20 @@ footer li {
     line-height: 25px;
     margin-bottom: 3rem;
 }
+
+#professionals, #heritage {
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+#professionals h2, #heritage h2 {
+    font-size: 48px;
+    line-height: 52px;
+    /* text-align: center; */
+    letter-spacing: -1.2px;
+}
+
+#professionals p, #heritage p {
+    font-size: 18px;
+    line-height: 24px;
+}
