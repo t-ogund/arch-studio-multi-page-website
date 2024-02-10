@@ -1,11 +1,12 @@
 html {
     margin: 0;
+    padding: 0;
     /* padding: 3rem; */
     font-family: League Spartan;
 }
 
 body {
-    
+    margin: 0;
 }
 
 header {
@@ -365,10 +366,21 @@ button {
     flex-direction: column;
 }
 
-#about-bar {
+#about-bar, #contact-bar {
     height: 45px;
     width: 90%;
     background-color: white;
+}
+
+#contact-splash {
+    background-image: url("assets/contact/mobile/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 240px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
 footer {
@@ -395,19 +407,64 @@ footer li {
     margin-bottom: 3rem;
 }
 
-#professionals, #heritage {
+#professionals, #heritage, #the-leaders, #tell-us, #contact-details {
     padding: 2rem;
     margin-bottom: 5rem;
 }
 
-#professionals h2, #heritage h2 {
+#professionals h2, #heritage h2, #the-leaders, #tell-us h2, #contact-details h2 {
     font-size: 48px;
     line-height: 52px;
     /* text-align: center; */
-    letter-spacing: -1.2px;
+    /* letter-spacing: -1.2px; */
 }
 
-#professionals p, #heritage p {
+#professionals p, #heritage p, #tell-us p {
     font-size: 18px;
     line-height: 24px;
 }
+
+.leader {
+    margin-bottom: 5rem;
+}
+
+.leader h3 {
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0;
+}
+
+.leader h5 {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.address h6 {
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 1rem;
+}
+
+.address p {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+}
+
+#address-link {
+    margin-top: 1rem;
+    padding-left: 0;
+    background-color: white;
+    color: black;
+    font-weight: 800;
+}
+
+#map {
+    background-color: black;
+    height: 367px;
+    width: 375px;
+    margin-bottom: 3rem;
+    /* width: 100%; */
+}
+
