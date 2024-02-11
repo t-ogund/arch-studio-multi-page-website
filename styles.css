@@ -407,12 +407,12 @@ footer li {
     margin-bottom: 3rem;
 }
 
-#professionals, #heritage, #the-leaders, #tell-us, #contact-details {
+#professionals, #heritage, #the-leaders, #tell-us, #contact-details, #connect {
     padding: 2rem;
     margin-bottom: 5rem;
 }
 
-#professionals h2, #heritage h2, #the-leaders, #tell-us h2, #contact-details h2 {
+#professionals h2, #heritage h2, #the-leaders, #tell-us h2, #contact-details h2, #connect h2 {
     font-size: 48px;
     line-height: 52px;
     /* text-align: center; */
@@ -465,6 +465,28 @@ footer li {
     height: 367px;
     width: 375px;
     margin-bottom: 3rem;
-    /* width: 100%; */
 }
 
+.connect-form {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    padding-bottom: 1rem;  
+}
+
+#black-box {
+    margin-left: auto;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+}
