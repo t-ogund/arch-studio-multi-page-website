@@ -490,3 +490,20 @@ textarea {
     width: 80px;
     background-color: black;
 }
+
+.hamburger-menu:hover {
+    cursor: pointer;
+}
+
+.open-menu {
+    background-color: #EEEFF4;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.open-menu li {
+    font-size: 32px;
+    line-height: 40px;
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
