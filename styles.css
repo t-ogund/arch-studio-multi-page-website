@@ -7,6 +7,7 @@ html {
 
 body {
     margin: 0;
+    /* position: absolute; */
 }
 
 header {
@@ -27,6 +28,7 @@ header {
     display: flex;
     flex-direction: column;
     margin-bottom: 10rem;
+    /* position: relative; */
 }
 
 #paramour-splash h2 {
@@ -498,7 +500,14 @@ textarea {
 .open-menu {
     background-color: #EEEFF4;
     padding: 2rem 0;
-    position: relative;
+    width: 90%;
+    right: 0;
+    position: absolute;
+    margin-left: auto;
+}
+
+.hide {
+    display: none;
 }
 
 .open-menu li {
