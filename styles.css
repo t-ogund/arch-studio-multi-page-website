@@ -516,3 +516,69 @@ textarea {
     list-style-type: none;
     margin-bottom: 1rem;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header ul {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    /* Styles for screens between 768px and 1024px wide */
+    body {
+      /* background-color: lightgreen; */
+    }
+    .hamburger-menu {
+        display: none;
+    }
+    header {
+        display: flex;
+        /* background-color: red; */
+    }
+    header ul {
+        display: flex;
+        list-style-type: none;
+        /* background-color: blue; */
+        margin: 0 auto;
+        width: 75%;
+        justify-content: space-evenly;
+    }
+    #paramour-splash h2 {
+        color: white;
+        font-size: 96px;
+        letter-spacing: -2px;
+        line-height: 80px;
+        margin-bottom: 0;
+    }
+    #paramour-splash p {
+        color: white;
+        margin-bottom: 3rem;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    #welcome-arch-studio h2 {
+        font-size: 72px;
+        line-height: 64px;
+        letter-spacing: -2px;
+        font-family: League Spartan;
+        padding: 0 3rem;
+    }
+    #welcome-arch-studio p {
+        font-size: 18px;
+        line-height: 24px;
+        color: #60636D;
+        font-family: League Spartan;
+        padding: 0 3rem;
+    }
+    /* #welcome-arch-studio h3 {
+        font-size: 120px;
+        line-height: 200px;
+        letter-spacing: -3px;
+        font-family: League Spartan;
+        padding: 0 3rem;
+    } */
+  }
+
