@@ -434,6 +434,16 @@ footer li {
     line-height: 24px;
 }
 
+#heritage p {
+    margin-bottom: 1rem;
+}
+
+#leader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .leader {
     margin-bottom: 5rem;
 }
@@ -887,5 +897,66 @@ header ul {
         line-height: 24px;
         margin: 0;
     }
+
+    #about-container {
+        padding: 0 6rem;
+    }
+    #about-container header {
+        padding: 3rem 0rem;
+    }
+
+    #about-splash {
+        background-image: url("assets/about/tablet/image-hero.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 720px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    #about-bar {
+        display: none;
+    }
+    #about-text-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 431px;
+        width: 572px;
+        background-color: white;
+        padding: 0 5rem 0 5rem;
+    }
+
+    #about-text-box h2 {
+        font-size: 72px;
+        line-height: 64px;
+        letter-spacing: -2px;
+    }
+
+    #about-text-box p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #professionals {
+        display: none;
+    }
+
+    #heritage h2 {
+        font-size: 72px;
+        line-height: 64px;
+        letter-spacing: -2px;
+    }
+
+    #leader-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
   }
 
