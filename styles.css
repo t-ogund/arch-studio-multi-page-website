@@ -483,7 +483,8 @@ footer li {
 #map {
     background-color: black;
     height: 367px;
-    width: 375px;
+    /* width: 375px; */
+    width: 100%;
     margin-bottom: 3rem;
 }
 
@@ -898,10 +899,10 @@ header ul {
         margin: 0;
     }
 
-    #about-container {
+    #about-container, #contact-container {
         padding: 0 6rem;
     }
-    #about-container header {
+    #about-container header, #contact-container header {
         padding: 3rem 0rem;
     }
 
@@ -916,10 +917,10 @@ header ul {
         align-items: flex-end;
         flex-direction: column;
     }
-    #about-bar {
+    #about-bar, #contact-bar {
         display: none;
     }
-    #about-text-box {
+    #about-text-box, #tell-us {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -956,6 +957,51 @@ header ul {
         flex-wrap: wrap;
         gap: 1rem;
         justify-content: center;
+    }
+    #contact-splash {
+        background-image: url("assets/contact/tablet/image-hero.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 720px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    #tell-us {
+        margin-bottom: 0;
+    }
+
+    #tell-us h2 {
+        font-size: 72px;
+        line-height: 64px;
+    }
+
+    #tell-us p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #contact-details h2 {
+        font-size: 72px;
+        line-height: 64px;
+    }
+
+    .address-content-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    #map {
+        height: 560px;
+        /* width: 100%; */
+        margin: 0 auto;
+    }
+
+    #connect h2 {
+        font-size: 72px;
     }
 
   }

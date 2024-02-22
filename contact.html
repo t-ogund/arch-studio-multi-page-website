@@ -10,73 +10,109 @@
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=League+Spartan:wght@700&family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a href="index.html"><img src="assets/logo.svg" alt=""></a>
-        <img class="hamburger-menu" src="assets/icons/icon-hamburger.svg" alt="hamburger menu icon">
-        <ul>
-            <li><a href="portfolio-index.html">Portfolio</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </header>
-    <div class="open-menu hide">
-        <ul>
-            <li><a href="portfolio-index.html">Portfolio</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <div id="contact-container">
+        <header>
+            <a href="index.html"><img src="assets/logo.svg" alt=""></a>
+            <img class="hamburger-menu" src="assets/icons/icon-hamburger.svg" alt="hamburger menu icon">
+            <ul>
+                <li><a href="portfolio-index.html">Portfolio</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </header>
+        <div class="open-menu hide">
+            <ul>
+                <li><a href="portfolio-index.html">Portfolio</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <!-- <section id="contact-splash">
+            <div id="contact-bar">
+    
+            </div>
+        </section>
+        <section id="tell-us">
+            <h2>Tell us about your project</h2>
+            <p>
+                We'd love to hear more about your project. Please, leave 
+                a message below or give us a call. We have two offices, 
+                one in Texas and one in Tennessee. If you find yourself 
+                nearby, come say hello!
+            </p>
+        </section> -->
+        <section id="contact-splash">
+            <div id="contact-bar">
+    
+            </div>
+            <div id="tell-us" class="hide">
+                <h2>Tell us about your project</h2>
+                <p>
+                    We'd love to hear more about your project. Please, leave 
+                    a message below or give us a call. We have two offices, 
+                    one in Texas and one in Tennessee. If you find yourself 
+                    nearby, come say hello!
+                </p>
+            </div>
+        </section>
+        <!-- <section id="professionals">
+            <h2>Your team of professionals</h2>
+            <p>
+                Our small team of world-class professionals will work with 
+                you  every step of the way. Strong relationships are at the 
+                core of everything we do. This extends to the relationship 
+                our projects have with their surroundings.
+            </p>
+        </section> -->
+        <section id="contact-details">
+            <h2>Contact Details</h2>
+    
+            <div class="address">
+                <div class="address-content-container">
+                    <div class="address-content">
+                        <h6>Main Office</h6>
+                        <p>Mail: archone@mail.com</p>
+                        <p>Address: 1892 Chenoweth Drive TN</p>
+                        <p>Phone: 123-456-3451</p>
+                    </div>
+                    <button id="address-link" href="#">View on Map</button>
+                </div>
+            </div>
+    
+            <div class="address">
+                <div class="address-content-container">
+                    <div class="address-content">
+                        <h6>Office II</h6>
+                        <p>Mail: archtwo@mail.com</p>
+                        <p>Address: 3399 Wines Lane TX</p>
+                        <p>Phone: 832-123-4321</p>
+                    </div>
+                    <button id="address-link" href="#">View on Map</button>
+                </div>
+            </div>
+        </section>
+        <div id="map">
+                
+        </div>
+        <section id="connect">
+            <h2>Connect with us</h2>
+            <form action="">
+                <input class="connect-form" type="text" placeholder="Name"/>
+                <input class="connect-form" type="email" placeholder="Email"/>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            </form>
+            <div id="black-box"></div>
+           
+        </section>
     </div>
-    <section id="contact-splash">
-        <div id="contact-bar">
-
-        </div>
-    </section>
-    <section id="tell-us">
-        <h2>Tell us about your project</h2>
-        <p>
-            We'd love to hear more about your project. Please, leave 
-            a message below or give us a call. We have two offices, 
-            one in Texas and one in Tennessee. If you find yourself 
-            nearby, come say hello!
-        </p>
-    </section>
-    <section id="contact-details">
-        <h2>Contact Details</h2>
-
-        <div class="address">
-            <h6>Main Office</h6>
-            <p>Mail: archone@mail.com</p>
-            <p>Address: 1892 Chenoweth Drive TN</p>
-            <p>Phone: 123-456-3451</p>
-            <button id="address-link" href="#">View on Map</button>
-        </div>
-
-        <div class="address">
-            <h6>Office II</h6>
-            <p>Mail: archtwo@mail.com</p>
-            <p>Address: 3399 Wines Lane TX</p>
-            <p>Phone: 832-123-4321</p>
-            <button id="address-link" href="#">View on Map</button>
-        </div>
-    </section>
-    <div id="map">
-            
-    </div>
-    <section id="connect">
-        <h2>Connect with us</h2>
-        <form action="">
-            <input class="connect-form" type="text" placeholder="Name"/>
-            <input class="connect-form" type="email" placeholder="Email"/>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-        </form>
-        <div id="black-box"></div>
-       
-    </section>
     <footer>
+        <div id="logo-square" class="hide">
+            <img src="assets/logo.svg" style="color: white" alt="">
+        </div>
         <ul>
-            <li>Portfolio</li>
-            <li>About Us</li>
-            <li>Contact</li>
+            <li><a href="portfolio-index.html">Portfolio</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
         <button>
             See Our Portfolio
